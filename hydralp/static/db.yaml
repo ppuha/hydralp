@@ -1,0 +1,17 @@
+connection:
+  type: postgresql
+  host: 127.0.0.1
+  port: 5432
+  db: users
+  table: users
+  user: user
+  password: password
+
+basic:
+  username: email
+  password: password
+
+extra:
+  first_name: first_name
+  last_name: last_name
+  country: loc
